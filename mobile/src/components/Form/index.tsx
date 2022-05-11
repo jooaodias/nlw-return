@@ -60,7 +60,6 @@ export function Form({
 
       onFeedbackSent();
     } catch (error) {
-      console.log(error);
       setIsSendingFeedback(false);
     }
   }
